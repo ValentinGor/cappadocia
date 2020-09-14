@@ -1,0 +1,127 @@
+@media (min-width: 0) and (max-width: 1600px) {
+
+}
+
+@media (min-width: 0) and (max-width: 1440px) {
+
+}
+
+@media (min-width: 0) and (max-width: 1366px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .main__slag_head h1 {
+        font-size: 225px;
+    }
+
+    .main__slag_text {
+        margin-right: 60px;
+        top: -175px;
+    }
+
+    .text__info_p {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 1199px) {
+    .container {
+        max-width: 940px;
+    }
+
+    .main__slag_head h1 {
+        font-size: 205px;
+    }
+
+    .main__slag_text {
+        margin-right: 70px;
+        top: -162px;
+    }
+
+    .container-fluid {
+        flex-direction: column;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .text__info {
+        width: calc(100% - 30px);
+        margin: 50px 15px;
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 991px) {
+    .container {
+        max-width: 740px;
+    }
+
+    .top__line_menu-links ul li {
+        margin-right: 35px;
+    }
+
+    .main__slag_head h1 {
+        font-size: 170px;
+    }
+
+    .main__slag_text {
+        margin-right: 35px;
+        top: -142px;
+    }
+
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .top__line_menu {
+        display: none;
+    }
+
+    .main__slag_head h1 {
+        font-size: 120px;
+    }
+
+    .main__slag_text {
+        margin-right: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    .mobile-top__line_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background: black;
+    }
+}
+
+@media (min-width: 0) and (max-width: 575px) {
+    .container {
+        max-width: calc(100% - 30px);
+        margin: 0 15px;
+    }
+
+    .main__slag_head h1 {
+        font-size: 76px;
+    }
+
+    .main__slag_text h2 {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 479px) {
+
+}
+
+@media (min-width: 0) and (max-width: 360px) {
+
+}
